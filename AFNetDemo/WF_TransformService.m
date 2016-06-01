@@ -66,17 +66,13 @@
     [manager GET:urlStr parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
         //NSLog(@"读取进度--》%@",downloadProgress);
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        
         NSDictionary *result = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
-        
-        
         NSLog(@"url===>:%@",task.response.URL);
         NSLog(@"返回数据--》%@",[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
         NSLog(@"————————————————————————————————————————————");
         
         success(result);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
         NSLog(@"url===>:%@",task.response.URL);
         NSLog(@"请求失败--》%@",error.description);
         NSLog(@"===========================");
@@ -98,15 +94,11 @@
     [manager POST:urlStr parameters:postDic progress:^(NSProgress * _Nonnull uploadProgress) {
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSDictionary *result = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
-        
-        
         NSLog(@"url===>:%@",task.response.URL);
         NSLog(@"返回数据--》%@",[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
         NSLog(@"————————————————————————————————————————————");
-        
         success(result);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
         NSLog(@"url===>:%@",task.response.URL);
         NSLog(@"请求失败--》%@",error.description);
         NSLog(@"===========================");

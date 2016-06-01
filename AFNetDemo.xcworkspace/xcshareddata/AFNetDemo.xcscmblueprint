@@ -1,20 +1,28 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "50E3319734FA0E834D7E46638193C41509866875",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72" : 0
+    "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72" : 0,
+    "50E3319734FA0E834D7E46638193C41509866875" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8233447F-D14A-4E1E-B0BF-6B27A8DFA125",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72" : ""
+    "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72" : "",
+    "50E3319734FA0E834D7E46638193C41509866875" : "AFNetDemo\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "AFNetDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AFNetDemo.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maple023\/AFNetDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "50E3319734FA0E834D7E46638193C41509866875"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.20",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
