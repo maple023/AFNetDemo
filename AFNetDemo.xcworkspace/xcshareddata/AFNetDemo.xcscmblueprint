@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8233447F-D14A-4E1E-B0BF-6B27A8DFA125",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AFNetDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AFNetDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.20",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e1b3aac3-cefb-45a8-9bf9-de64e15ffc72"
+    }
+  ]
+}
